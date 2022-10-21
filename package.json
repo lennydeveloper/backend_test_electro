@@ -1,0 +1,34 @@
+{
+  "name": "backend_test_electro",
+  "version": "1.0.0",
+  "description": "Este repositorio tiene como objetivo principal desarrollar una REST API para consumir los servicios de Unsplash",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennydeveloper/backend_test_electro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lennydeveloper/backend_test_electro/issues"
+  },
+  "homepage": "https://github.com/lennydeveloper/backend_test_electro#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jest": "^29.2.1",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.2.10",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.0",
+    "unsplash-js": "^7.0.15"
+  }
+}
