@@ -2,11 +2,11 @@
   "name": "backend_test_electro",
   "version": "1.0.0",
   "description": "Este repositorio tiene como objetivo principal desarrollar una REST API para consumir los servicios de Unsplash",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
     "nodemon": "^2.0.20",
     "supertest": "^6.3.0",
     "unsplash-js": "^7.0.15"
+  },
+  "engines": {
+    "node": "14.20.0"
   }
 }
