@@ -106,7 +106,6 @@ app.get('/random-photos', (req, res) => {
 
 const port = process.env.PORT || 8080;
 
-var server = app.listen(port, 'localhost', function () {
-});
+var server = app.listen(port, () => console.log(`Listen on port ${port}`));
 
 export default app;
